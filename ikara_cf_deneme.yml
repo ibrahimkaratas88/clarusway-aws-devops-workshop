@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Description: This template creates an EC2 instance which enables SSH connection. #bu bir commenttir
+
+Resources:
+   ibrahimCFInstance:
+      Type: AWS::EC2::Instance
+      Properties:
+        ImageId: ami-02354e95b39ca8dec
+        InstanceType: t2.micro
+        KeyName: ibrahimk
+        SecurityGroups:
+          - ibrahimk-cfdemo-sg
+        Tags:
+          - Key: Name
+            Value: ibrahim-cf-instance
