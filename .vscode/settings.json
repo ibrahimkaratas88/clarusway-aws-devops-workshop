@@ -1,0 +1,5 @@
+{
+    "terminal.explorerKind": "integrated",
+    "terminal.integrated.automationShell.osx": "C:\\WINDOWS\\System32\\bash.exe",
+    "terminal.integrated.automationShell.linux": "c:\\WINDOWS\\System32\\bash.exe"
+}
